@@ -40,7 +40,7 @@ function listarContatos(req, res) {
 
 // Adicionar Contatos
 function adicionarContato(req, res) {
-    if (!req.body['name']) {
+    if (!req.body['name'] && !req.body['time'] ) {
         res.status(400).json({ erro: "Requisição inválida." })
     }
 
