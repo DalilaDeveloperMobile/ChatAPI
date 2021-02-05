@@ -4,13 +4,13 @@ var date = new Date();
 var horaTime = date.getHours() + ":" + date.getMinutes();
 
 let contatos = [
-    { id: '1', name: 'John Doe', time: horaTime },
-    { id: '2', name: 'Diná Moura', time: horaTime },
-    { id: '3', name: 'Lucas Moura', time: horaTime },
+    { id: '1', name: 'John Doe', time: horaTime, foto: '1w.png' },
+    { id: '2', name: 'Diná Moura', time: horaTime, foto: 'dina.png' },
+    { id: '3', name: 'Lucas Moura', time: horaTime, foto: 'dina.png' },
 
-    { id: '4', name: 'Jonas Falcão', time: horaTime },
-    { id: '5', name: 'Mariana Brito', time: horaTime },
-    { id: '6', name: 'Dalila Custódio', time: horaTime }
+    { id: '4', name: 'Jonas Falcão', time: horaTime, foto: 'jonas.png' },
+    { id: '5', name: 'Mariana Brito', time: horaTime, foto: 'brito.png' },
+    { id: '6', name: 'Dalila Custódio', time: horaTime, foto: '232.png' }
 ];
 
 // Obter Contatos por ID
